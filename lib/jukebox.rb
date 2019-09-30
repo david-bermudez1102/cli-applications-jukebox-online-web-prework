@@ -36,5 +36,5 @@ end
 
 def run(songs)
   puts "Please enter a command
-  input = gets.vhomp
+  input = gets.chomp
 end
