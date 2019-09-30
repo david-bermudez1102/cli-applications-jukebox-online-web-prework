@@ -17,7 +17,7 @@ def play(songs)
   input = gets.strip
   if(input.to_i.to_s == input)
     if(songs.include?(songs[(input.to_i)-1]))
-      puts songs[(input.to_i)-1]
+      puts "Playing #{songs[(input.to_i)-1]}"
     else
       puts "Invalid input, please try again"
     end
